@@ -8,3 +8,5 @@ library(ggplot2)
 
 ggplot(dt,aes(x=Petal.Length,color=Species))+
   geom_density()
+
+summary(dt)
