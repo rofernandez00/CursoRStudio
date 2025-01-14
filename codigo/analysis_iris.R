@@ -6,5 +6,5 @@ dfSummary(dt)
 
 library(ggplot2)
 
-ggplot(dt,aes(x=Petal.Length,fill=Species))+
+ggplot(dt,aes(x=Petal.Length,color=Species))+
   geom_density()
